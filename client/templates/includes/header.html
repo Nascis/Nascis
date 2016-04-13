@@ -1,12 +1,14 @@
 <template name="header">
     <header>
-        <img id="logo" src="{{ dict 'site.logo.url' }}">
-        <h1>
-            {{ dict 'site.name' 'Name'}}
+        <a href="/">
+            <img id="logo" src="{{ dict 'site.logo.url' }}">
+            <h1>
+                {{ dict 'site.name' 'Name'}}
+            </h1>
             <span>
                 {{ dict 'site.catchphrase' 'My personnal website'}}
             </span>
-        </h1>
+        </a>
 
     </header>
 </template>
